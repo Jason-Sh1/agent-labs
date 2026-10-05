@@ -1,0 +1,17 @@
+[
+  {
+    "id": "parse-commas",
+    "task": "The ParseAmountTests in tests/test_money.py fail on amounts with thousands separators like \"$1,234.50\". Fix the bug in the ledger package so they pass.",
+    "check": "tests.test_money.ParseAmountTests"
+  },
+  {
+    "id": "negative-format",
+    "task": "FormatCentsTests.test_negative in tests/test_money.py fails: negative amounts are formatted wrong. Fix the formatting code.",
+    "check": "tests.test_money.FormatCentsTests"
+  },
+  {
+    "id": "month-keys",
+    "task": "tests/test_ledger.py fails because Ledger.by_month() returns the wrong keys. Fix it.",
+    "check": "tests.test_ledger"
+  }
+]

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.agent-edits.log
+lab3-orchestrator/runs/
+lab4-evals/results/
+.claude/edits.log
